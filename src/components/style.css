@@ -1,0 +1,56 @@
+.header {
+  background: #2f2c7d;
+  color: #fff;
+  height: 6vh;
+  line-height: 6vh;
+  text-align: center;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: stretch;
+}
+
+.header > div {
+}
+
+.header-left{
+  flex: 2;
+}
+.header-center{
+  flex: 2;
+}
+.header-right{
+  width: 20vw;;
+  margin-top: 2vh;
+  line-height: 4vh;
+  vertical-align: center;
+  text-align: center;
+  display: flex;
+  flex: 1;
+  justify-content:space-around;
+}
+
+.carousel-wrapper{
+  margin: 0vh auto;
+  width: 80vw;
+}
+
+.image-wrapper {
+  height: 40vh;
+}
+
+.legend {
+  background: #2f2c7d;
+  color: black;
+  opacity: 0.3;
+}
+
+.legend:hover {
+  background: #2f2c7d;
+  color: black;
+  opacity: 0.3;
+}
+.legend:focus {
+  background: #2f2c7d;
+  color: black;
+  opacity: 0.3;
+}
