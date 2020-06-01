@@ -92,6 +92,13 @@
 }
 
 .navbar {
+  align-self: flex-end;
+  position: relative;
+  right:0;
+  width: 50vw;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
   height: 10vh;
   background: #fff;
   line-height: 10vh;
@@ -99,4 +106,52 @@
   font-weight: bold;
   text-align: right;
   border: 1px solid black;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #2F2C7D;
+}
+
+.navbar a:after {
+  text-decoration: none;
+  color: #2F2C7D;
+}
+
+.footer {
+  margin: 0 auto;
+  width: 80vw;
+  border: 1px solid red;
+}
+
+.footer-top ul {
+  width: 40vw;
+  align-content: flex-start;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row nowrap;
+  list-style-type: none;
+  border: 1px solid red;
+  flex:1;
+}
+
+.footer .logo {
+border: 1px solid red;
+
+ display: inline;
+}
+
+.footer-bottom ul {
+ width: 40vw; 
+ display: flex;
+ flex-flow: row nowrap;
+ align-content: flex-end;
+ list-style-type: none;
+}
+
+.gov-links {
+ display: flex; 
+ flex-flow: nowrap row;
+ height: 10vh;
+ border: 1px solid black;
 }
