@@ -4,6 +4,7 @@ import Carousel from "./components/Carousel";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Gifts from "./components/Gifts";
 export default class App extends React.Component {
   state = {};
   render() {
@@ -12,10 +13,9 @@ export default class App extends React.Component {
         <Header />
         <Navbar />
         <Carousel />
-        {/* <Gifts /> */}
+        <Gifts />
         {/* <CarpetsAroundTheWorld /> */}
         {/* <Supporters /> */}
-        {/* <CompulsoryGovtSites /> */}
         <Footer />
       </React.Fragment>
     );
