@@ -8,7 +8,7 @@ import img3 from "../img/views/views3.jpg";
 
 import "./style.css";
 
-export default class DemoCarousel extends Component {
+export default class Views extends Component {
   render() {
     return (
       <div className="carousel-wrapper">
