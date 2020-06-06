@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import Gifts from "./components/Gifts";
 import Views from "./components/Views";
 import Extra from "./components/Extra.jsx";
+import GovLinks from "./components/GovLinks";
 import { Collection } from "./components/Collection.jsx";
 
 export default class App extends React.Component {
@@ -23,7 +24,7 @@ export default class App extends React.Component {
       <React.Fragment>
         <Header />
         <Navbar />
-        <Extra toggleContrast={this.toggleContrast} />
+        {/* <Extra toggleContrast={this.toggleContrast} /> */}
         <Carousel />
         <Gifts />
         <Collection />
@@ -31,6 +32,7 @@ export default class App extends React.Component {
 
         {/* <CarpetsAroundTheWorld /> */}
         {/* <Supporters /> */}
+        <GovLinks />
         <Footer />
       </React.Fragment>
     );

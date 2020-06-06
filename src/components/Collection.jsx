@@ -2,7 +2,7 @@ import React from "react";
 import item1 from "../img/collections/collections1.jpg";
 import item2 from "../img/collections/collections2.jpg";
 import item3 from "../img/collections/collections3.jpg";
-const images = [item1, item2, item3];
+/* const images = [item1, item2, item3]; */
 
 export const Collection = () => (
   <section className="collection">
